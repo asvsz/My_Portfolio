@@ -1095,32 +1095,29 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
-	min-width: 220px;
-	min-height: 66px;
+	width: 150px;
+	height: 80px;
 	position: absolute;
-	left: 90px;
+	left: 0px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
+
 	position: relative;
 }
 header .logo a {
 	display: block;
-	margin: 0;
+	margin: 1.5rem;
 	padding: 0;
 	border: none;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 92px;
-	height: 15px;
+	width: 40px;
+	height: 50px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background-size: 50px 60px;
 }
 
 /**
@@ -1129,10 +1126,10 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
+	width: 50px;
 	height: 40px;
-	margin-left: 20px;
-	margin-top: 13px;
+	margin-left: 2px;
+	margin-top: 20px;
 	display: block;
 	position: relative;
 }
@@ -1146,7 +1143,7 @@ header .logo a {
 	text-shadow: none;
 	color: transparent;
 	position: absolute;
-	right: 8px;
+	right: 4px;
 	top: 50%;
 	bottom: auto;
 	left: auto;
@@ -1229,7 +1226,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: rgba(128, 128, 128, 0.15);;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
